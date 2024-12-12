@@ -1,0 +1,18 @@
+{
+  "name": "dasha-app-server",
+  "version": "1.0.0",
+  "description": "server for dasha-app victorine",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:server": "node index.js",
+    "start:dev:server": "nodemon index.js"
+  },
+  "author": "alexandroo4",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2",
+    "nodemon": "^3.1.7",
+    "socket.io": "^4.8.1"
+  }
+}
