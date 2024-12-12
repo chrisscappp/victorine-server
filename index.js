@@ -1,7 +1,7 @@
 const port = 1111
 const io = require("socket.io")(port, {
 	cors: {
-		origin: "*"
+		origin: ["*"]
 	}
 })
 
